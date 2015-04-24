@@ -1,0 +1,8 @@
+el valor del superpancho a las afueras del Campus es de 13 pesos?     #1
+es Robin el companiero inseparable de Batman?                         #0
+el grupo sanguineo AB corresponde al donante universal?               #0
+es poco recomendable aderezar las ensaladas con HCl?                  #1
+el campus de la UTN cuenta con rampas para discapacitados?            #1
+ignorante se escribe con las mismas letras que argentino?             #1
+la aurora boreal solo se observa en la provincia de Tierra del Fuego? #0
+Jose Hernandez fue el autor del libro Facundo?                        #0
