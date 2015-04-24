@@ -12,6 +12,7 @@ std::string lineap;
 std::string linear;
 std::string descarte;
 int puntaje = 0;
+void salir();
 	
 void imprimBanner()
 {
@@ -39,14 +40,19 @@ void abrirArchivo(){
 
 
 bool recibirRespuesta (){
-	bool resp;
-	char siono[1];
+	char input[1];
 	
-	std::cin.getline(siono, 20);
-	if ((siono[0] == 's') || (siono[0] == 'S'))
-		resp = 1;
-	else { resp = 0;}
-return resp;
+	while (1 == 1){
+	std::cin.getline(input, 20);
+		if ((input[0] == 's') || (input[0] == 'S'))
+			return 1;
+		else if ((input[0] == 'n') || (input[0] == 'N'))
+			return 0;
+		else if ((input[0] == 'q') || (input[0] == 'Q'))
+			salir();
+		else 
+			std::cout << "Por favor ingrese una letra valida.\n";
+	}
 }
 
 void verificarRespuesta(bool respuesta){
@@ -82,16 +88,22 @@ void mostrarPuntaje(){
 	std::cout << "Adios! Su puntaje total es igual a: " << puntaje;	
 }
 
+void salir(){
+	fs.close();
+	mostrarPuntaje();
+	std::exit(0);
+}
+
 int main() {
 		
 	using namespace std;
 	
 	imprimBanner();
-	cout << "Bienvenido al juego de preguntas y respuestas.\nEscriba \"Si\" o \"No\" para responder a las preguntas."
+	cout << "Bienvenido al juego de preguntas y respuestas.\n"
+	<< "Escriba \"S\" o \"N\" para responder a las preguntas, \"Q\" para salir"
 	<< "\nPresione una tecla para continuar...";
 	cin.get();
 	abrirArchivo();
 	preguntarResponderVerificar();
-	fs.close();
-	mostrarPuntaje();
+	salir();
 }
