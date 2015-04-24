@@ -1,0 +1,43 @@
+Microsoft Windows XP [Versión 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+        +---------------------------------+
+        |Algoritmos y Estructuras de Datos|
+        |UTN-FRBA-Curso K1051             |
+        |TP No 3 - Preguntas y Respuestas |
+        +---------------------------------+
+
+
+Bienvenido al juego de preguntas y respuestas.
+Escriba "S" o "N" para responder a las preguntas, "Q" para salir
+Presione una tecla para continuar...
+
+Archivo de preguntas cargado.
+
+Pregunta No 1: el valor del superpancho a las afueras del Campus es de 13 pesos?
+S
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 2:
+es Robin el companiero inseparable de Batman?N
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 3:
+el grupo sanguineo AB corresponde al donante universal?N
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 4:
+es poco recomendable aderezar las ensaladas con HCl?S
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 5:
+el campus de la UTN cuenta con rampas para discapacitados?S
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 6:
+ignorante se escribe con las mismas letras que argentino?S
+Muy bien! Su respuesta es correcta.
+
+Pregunta No 7:
+la aurora boreal solo se observa en la provincia de Tierra del Fuego?Q
+Adios! Su puntaje total es igual a: 6
